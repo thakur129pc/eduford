@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https:/stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>EduFord</title>
+
+</head>
+
+<body>
+
+    <!-- ----------Navigation Bar---------- -->
+
+    <section class="sub-header1">
+        <nav>
+            <a href="2nd-project.html"><img src="Images/logo.png" alt=""></a>
+
+            <div class="nav-links" id="navlinks">
+
+                <i id="hide-btn" class="fa fa-angle-right" onclick="hidenenu()"></i>
+
+                <ul>
+                    <li><a href="2nd-project.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+
+            </div>
+
+            <i id="show-btn" class="fa fa-angle-double-left" onclick="showmenu()"></i>
+
+        </nav>
+
+        <h1> About Us</h1>
+
+    </section>
+    <!----------Java-Script---------->
+    <script>
+
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+
+        function hidenenu() {
+            navlinks.style.right = "-40%";
+        }
+
+    </script>
+
+    <!-- ----------About Section---------- -->
+
+    <section class="about-us">
+
+        <div class="row">
+
+            <div class="about-col">
+
+                <h1>
+                    We are the World's Largest University
+                </h1>
+
+                <p>Our University has been founded by Dr. Ashok Chitkara and Dr. Madhu Chitkara, who
+                    have been passionate teachers for more than 40 years now. Since inception, Our University has
+                    been different. Our students have been different. So are our faculty, our academic strengths and our
+                    outlook towards teaching and learning. Within a decade, most of our academic programs are ranked in
+                    top 50 programs in the world.<br>
+                    Students from around the world are getting attracted to our University because of our
+                    commitment to teaching excellence, focus on research, tailored courses that makes our education
+                    relevant to changing career dynamics and formidable industry partnerships.</p>
+
+                <a href="">Explore More</a>
+
+            </div>
+
+            <div class="about-col">
+
+                <img src="Images/about.jpg" alt="">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="footer">
+
+        <h3>About Us</h3>
+
+        <p>Consistently ranked very high by NIRF | Business Standard | Business World | Business Today | Career 360 |
+            Assocham | Academic Insights | Asia INC 500</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>

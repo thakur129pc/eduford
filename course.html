@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https:/stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>EduFord</title>
+
+</head>
+
+<body>
+
+    <!-- ----------Navigation Bar---------- -->
+
+    <section class="sub-header1">
+        <nav>
+            <a href="2nd-project.html"><img src="Images/logo.png" alt=""></a>
+
+            <div class="nav-links" id="navlinks">
+
+                <i id="hide-btn" class="fa fa-angle-right" onclick="hidenenu()"></i>
+
+                <ul>
+                    <li><a href="2nd-project.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+
+            </div>
+
+            <i id="show-btn" class="fa fa-angle-double-left" onclick="showmenu()"></i>
+
+        </nav>
+
+        <h1>Our Courses</h1>
+
+    </section>
+    <!----------Java-Script---------->
+    <script>
+
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+
+        function hidenenu() {
+            navlinks.style.right = "-40%";
+        }
+
+    </script>
+
+    <!-- ----------Course Section---------- -->
+
+    <section class="course">
+
+        <h1>Professional courses</h1>
+        <p>
+            Align with your inner self, envision your path to purpose, and take the first step forward. Finding the
+            "perfect" job is hard. With our course, you'll discover it's not impossible. 100% Online/Distance.
+            Scholarships Available.
+        </p>
+
+    </section>
+
+    <div id="courses">
+        <div class="container">
+            <div class="c-row">
+                <div class="r-items">
+                    <div class="heading"><img src="Images/Courses-heading.png" class="img-fluid" />
+                    </div>
+                    <h2>Courses</h2>
+                </div>
+            </div>
+            <div class="c-row">
+
+                <div class="col-2">
+                    <h4>AGRICULTURE</h4>
+                    <ul>
+                        <li>B.SC. (HONS.)</li>
+                        <li>M.SC.</li>
+                    </ul>
+
+                    <h4>BIOTECHNOLOGY</h4>
+                    <ul>
+                        <li>B.SC. (HONS.)</li>
+                        <li>BSc Research (4 years)</li>
+                        <li>M.SC.</li>
+                        <li>M.SC. Research </li>
+                        <li>B.TECH</li>
+                        <li>M.TECH</li>
+                    </ul>
+
+                    <h4>BOTANY</h4>
+                    <ul>
+                        <li>B.SC. (HONS.)</li>
+                        <li>BSc Research (4 years)</li>
+                        <li>M.SC.</li>
+                        <li>M.SC. Research </li>
+                    </ul>
+
+                    <h4>CHEMISTRY</h4>
+                    <ul>
+                        <li>B.SC. (HONS.)</li>
+                        <li>BSc Research (4 years)</li>
+                        <li>M.SC.</li>
+                        <li>M.SC. Research </li>
+                    </ul>
+
+                    <h4>Computer Application</h4>
+                    <ul>
+                        <li>BCA</li>
+                        <li>MCA</li>
+                    </ul>
+                </div>
+
+                <div class="col-2">
+                    <h4>ENGLISH</h4>
+                    <ul>
+                        <li> BA (HONS.)</li>
+                        <li> MA (ENG. LIT)</li>
+
+                    </ul>
+
+                    <h4>Bachelor of Arts</h4>
+                    <ul>
+                        <li> BA PAss</li>
+                        <li>BA (Hons) Political Science (4 Years)</li>
+                        <li> BA (Hons) History (4 Years)</li>
+                        <li>BA (Hons) Economics & Finance (4 Years)</li>
+                        <li>BA (Hons) Education (4 Years)</li>
+
+                    </ul>
+
+                    <h4>ENVIRONMENTAL SCIENCES</h4>
+                    <ul>
+                        <li>M.SC.</li>
+                    </ul>
+
+                    <h4>FOOD TECHNOLOGY</h4>
+                    <ul>
+                        <li>B.SC. (HONS.)</li>
+                        <li>BSc Research (4 years)</li>
+                        <li>M.SC.</li>
+                        <li>M.SC. Research </li>
+                        <li>B.TECH</li>
+                        <li>M.TECH</li>
+                    </ul>
+
+                    <h4>HOTEL MANAGEMENT</h4>
+                    <ul>
+                        <li>B SC HOSPITALITY & HOTEL ADMINISTRATION</li>
+                    </ul>
+                </div>
+
+                <div class="col-2">
+                    <h4>LAW</h4>
+                    <ul>
+                        <li> LLB</li>
+                        <li> BA LLB</li>
+                        <li> LLM</li>
+
+                    </ul>
+
+                    <h4>MASS COMMUNICATION</h4>
+                    <ul>
+                        <li>BA (JOURNALISM & MASS COMMUNICATION)</li>
+                        <li>PG DIPLOMA JOURNALISM (PGDJM)</li>
+                    </ul>
+
+                    <h4>MANAGEMENT</h4>
+                    <ul>
+                        <li>B.COM (HONS.)</li>
+                        <li>BBA (3 Years)</li>
+                        <li>BBA in Rural Management (4 Years)</li>
+                        <li>BBA Aviation and Management (4 Years)</li>
+                        <li>BBA Computer Science & Entrepreneurship (4 Years)</li>
+                        <li>MBA (GENERAL)</li>
+                        <li>MBA Digital/International Relations/Tourism/Rural Management</li>
+
+
+                    </ul>
+
+                    <h4>MATHEMATICS</h4>
+                    <ul>
+                        <li>B.SC. (HONS.)</li>
+                        <li>M.SC.</li>
+                    </ul>
+                </div>
+
+                <div class="col-2">
+                    <h4>ENGINEERING</h4>
+                    <ul>
+                        <li> CSE</li>
+                        <li> Mechanical</li>
+
+                        <li> Civil</li>
+                        <li> Defence</li>
+                        <li> Automobile</li>
+                        <li> Mechatronics</li>
+                        <li> EE/ ECE</li>
+
+                    </ul>
+
+                    <h4>MICROBIOLOGY</h4>
+                    <ul>
+                        <li>B.SC. (HONS.)</li>
+                        <li>BSc Research (4 years)</li>
+                        <li>M.SC.</li>
+                        <li>M.SC. Research </li>
+                    </ul>
+
+                    <h4>PHARMACEUTICAL SCIENCES</h4>
+                    <ul>
+                        <li>B. PHARMACY</li>
+                        <li>M.PHARMACY (PHARMACEUTICS)</li>
+                        <li>M.PHARMACY (PHARMACOLOGY)</li>
+                        <li>M.PHARMACY (PHARMACY CHEMISTRY)</li>
+                    </ul>
+
+                    <h4>PHYSICS</h4>
+                    <ul>
+                        <li>B.SC. (HONS.)</li>
+                        <li>BSc Research (4 years)</li>
+                        <li>M.SC.</li>
+                        <li>M.SC. Research </li>
+                    </ul>
+                </div>
+
+                <div class="col-2">
+                    <h4>YOGA SCIENCE</h4>
+                    <ul>
+                        <li>BA/B.SC.</li>
+                        <li>MA/M.SC.</li>
+
+                    </ul>
+
+                    <h4>ZOOLOGY</h4>
+                    <ul>
+                        <li>B.SC. (HONS.)</li>
+                        <li>BSc Research (4 years)</li>
+                        <li>M.SC.</li>
+                        <li>M.SC. Research </li>
+                    </ul>
+
+                    <h4>Lateral Entry Courses</h4>
+
+                    <h4>Ph.d Courses</h4>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------- -->
+
+    <section class="footer">
+
+        <h3>About Us</h3>
+
+        <p>Consistently ranked very high by NIRF | Business Standard | Business World | Business Today | Career 360 |
+            Assocham | Academic Insights | Asia INC 500</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>

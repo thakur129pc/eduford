@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https:/stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>EduFord</title>
+
+</head>
+
+<body>
+
+    <!-- ----------Navigation Bar---------- -->
+
+    <section class="header">
+        <nav id="home">
+            <a href="2nd-project.html"><img src="Images/logo.png" alt=""></a>
+
+            <div class="nav-links" id="navlinks">
+
+                <i id="hide-btn" class="fa fa-angle-right" onclick="hidenenu()"></i>
+
+                <ul>
+                    <li><a href="2nd-project.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+
+            </div>
+
+            <i id="show-btn" class="fa fa-angle-double-left" onclick="showmenu()"></i>
+
+        </nav>
+
+        <!-- ----------Home Page---------- -->
+
+        <div class="text-box">
+
+            <h1>World's Best University</h1>
+
+            <div class="p-home">
+                <p>
+                    We are an institution of higher (or tertiary) education and research which awards academic degrees
+                    in
+                    several academic disciplines.
+                </p>
+                <p>
+                    We typically offer both undergraduate and postgraduate programs.
+                </p>
+            </div>
+
+            <a href="">Visit Us To Know More</a>
+
+        </div>
+
+
+    </section>
+    <!----------Java-Script---------->
+    <script>
+
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+
+        function hidenenu() {
+            navlinks.style.right = "-40%";
+        }
+
+    </script>
+
+    <!-- ----------Course---------- -->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>
+            Align with your inner self, envision your path to purpose, and take the first step forward. Finding the
+            "perfect" job is hard. With our course, you'll discover it's not impossible. 100% Online/Distance.
+            Scholarships Available.
+        </p>
+
+        <div class="row">
+            <div class="course-list">
+                <h2>Intermediate</h2>
+                <p>Candidates who have passed the Foundation examination or are eligible for exemption there from and
+                    are not less than 17 years of age may seek registration.</p>
+            </div>
+
+            <div class="course-list">
+                <h2>Degree</h2>
+                <p>Nurtured by an ideal combination of facilities and facilitators, the university scholars and artists
+                    have been winning the highest honours in their fields of interest.</p>
+            </div>
+
+            <div class="course-list">
+                <h2>Post-Graduation</h2>
+                <p>A multi faculty institution, that aims to blend professional & vocational education with traditional
+                    courses, it is an excellent model of what a university can do.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ----------Campus Section---------- -->
+
+    <section class="campus">
+
+        <h1>Our Global Campus</h1>
+
+        <p>Our Global Campus connects students around the world to collaborate, discuss and learn together every day.
+        </p>
+
+        <div class="row">
+
+            <div class="campus-list">
+                <img src="Images/newyork.png" alt="">
+
+                <div class="layer">
+                    <h3>New York</h3>
+                </div>
+
+            </div>
+            <div class="campus-list">
+                <img src="Images/london.png" alt="">
+
+                <div class="layer">
+                    <h3>London</h3>
+                </div>
+
+            </div>
+
+            <div class="campus-list">
+                <img src="Images/washington.png" alt="">
+
+                <div class="layer">
+                    <h3>Washington</h3>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ----------Facilities Section--------- -->
+
+    <section class="facilities">
+
+        <h1>Campus Facilities</h1>
+
+        <p>We believe that excellent campus facilities are essential in providing the support and resources required to
+            make the most of your studies.</p>
+
+        <div class="row">
+
+            <div class="facilities-list">
+
+                <img src="Images/library.png" alt="">
+
+                <h3>World Class Library</h3>
+
+                <p>The library houses more than 11 million items, including many of historical importance.The building's
+                    domed exterior protects a unique interior ceiling.</p>
+
+            </div>
+
+            <div class="facilities-list">
+
+                <img src="Images/basketball.png" alt="">
+
+                <h3>Best In Sports</h3>
+
+
+                <p>By providing first class sports facility and infrastructure, our University is known as the best
+                    University for sports in the World of Sports.</p>
+            </div>
+
+            <div class="facilities-list">
+
+                <img src="Images/cafeteria.png" alt="">
+
+                <h3>Tasty And Healthy Food</h3>
+
+                <p>Awarded the best multi-cuisine restaurant by the Times Food Guide, Whistling Duck is a relaxed and
+                    fun place to visit for a light lunch.</p>
+
+            </div>
+    </section>
+
+    <!-- ----------Contact Section---------- -->
+
+    <section class="contact">
+
+        <h1>Enroll For Our Various Online/Offline Courses.
+            <br>
+            Anywhere From World.
+        </h1>
+
+        <a href="">CONTACT US</a>
+
+    </section>
+
+    <section class="footer">
+
+        <!-- ----------About Section---------- -->
+
+        <h3>About Us</h3>
+
+        <p>Consistently ranked very high by NIRF | Business Standard | Business World | Business Today | Career 360 |
+            Assocham | Academic Insights | Asia INC 500</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
